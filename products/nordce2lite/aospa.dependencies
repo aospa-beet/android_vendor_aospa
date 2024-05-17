@@ -1,5 +1,11 @@
 [
     {
+        "remote":       "github",
+        "repository":   "aospa-beet/device_oneplus_nordce2lite",
+        "target_path":  "device/oneplus/nordce2lite",
+        "revision":     "uvite-massive-cleanup"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_oplus",
         "target_path":  "hardware/oplus",
@@ -30,6 +36,13 @@
         "revision":     "uvite-888"
     },
     {
+        "remote":       "github",
+        "repository":   "beet-stuffs/kernel_oneplus_sm6375",
+        "target_path":  "kernel/msm-5.4",
+        "revision":     "fourteen",
+        "clone-depth":  "1"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
         "target_path":  "vendor/nxp/opensource/halimpl",
@@ -40,5 +53,12 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "uvite-SN100X-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-beet/proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus/nordce2lite",
+        "revision":     "uvite-nord",
+        "clone-depth":  "1"
     }
 ]
